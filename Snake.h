@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <vector>
 #include <SFML/Graphics.hpp>
 
 class Snake
@@ -13,7 +14,7 @@ class Snake
 			bool mIsMovingLeft{ false };
 		};
 
-		int length{3};
+		std::vector<int> length{1};
 		//размер одного эллемента или размер одной картинки.
 
 	public:

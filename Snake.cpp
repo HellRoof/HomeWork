@@ -12,9 +12,11 @@ void Snake::handlePlayerInput(sf::Keyboard::Key key, bool isPressed)
 		directions.mIsMovingRight = isPressed;
 }
 
+
+
 Snake::Snake()
 {
 	mTextureSnake.loadFromFile("D:/Dev/GameSnakes/Snake.jpg");
 	mSpriteSnake.setTexture(mTextureSnake);
-	mSpriteSnake.setPosition(sf::Vector2f(30, 40));
+	mSpriteSnake.setPosition(sf::Vector2f(50, 50));
 }

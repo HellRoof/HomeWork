@@ -2,6 +2,7 @@
 #include "Snake.h"
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include "GameField.h"
 
 class Game 
 {
@@ -9,6 +10,7 @@ class Game
 		sf::RenderWindow rWindow;
 		const sf::Time fixedTimeStep{ sf::seconds(1.f / 60.f) };
 		Snake snake;
+		GameField Field;
 
 	public:
 

@@ -64,5 +64,6 @@ void Game::render()
 {
 	rWindow.clear(sf::Color::Black);
 	rWindow.draw(snake.mSpriteSnake);
+	Field.field_Render(rWindow);
 	rWindow.display();
 }
